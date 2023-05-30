@@ -1,0 +1,2 @@
+1) ог
+2) break,continue

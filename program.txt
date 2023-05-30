@@ -1,0 +1,29 @@
+program MyProgram;
+var a, b, c : integer;
+var i, res, temp, remp : integer;
+var u : float;#Opt#
+
+function Max(var fir, sec: integer;): integer;
+{
+if (fir < sec):
+	{ print (fir); }
+	else
+	{ print (sec); };
+Max := 0;
+}
+
+{
+res := 1;
+n := 5;
+print("Factorial:");
+while (n > 1):
+	{ 
+	temp := res;
+	res := temp * n;
+	remp := n;
+	n := remp - 1;
+	print(res);
+	};
+a := 8 * 3;
+a := 9 - 21;
+}
